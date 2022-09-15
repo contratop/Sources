@@ -1,0 +1,51 @@
+To verify the origin of megatools, run: 
+
+  gpg --verify CHECKSUMS.TXT
+  gpg -d CHECKSUMS.TXT | sha256sum -c
+
+You'll need to acquire and verify the origin of my public key in some
+trustworthy way:
+
+  Ondrej Jirman <megous@megous.com>
+
+Key fingerprint: EBFBDDE11FB918D44D1F56C1F9F0A873BE9777ED
+See: https://megous.com/key.txt
+
+Notice that you can't trust the unsigned part of this message, and when
+you'll feel the need to verify the files, it's already too late to put
+trust in the validity of above mentioned information. So get the key
+early and build trust gradually with the consistency of megatools
+releases.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+8c5a5d2b1d4b1997bd1813a64ef2af5de1715870de911c3c7a72be695cce35f4  DEPS.TXT
+ffed61d00cc30589bc7e8ca731fa0a135250cbaad1e1e6a4b890b7111717869f  docs/docbook-xsl.css
+4f477ebc53497138cc82af75bf4c3d287134e29791b4bac0d131204e3bb61425  docs/megarc.html
+fa45753d92f6f6c90aed423e105640aa27f8b73aba3002bfe400ad45695e7adc  docs/megatools-copy.html
+8ed96dc11b821597abe2ff1ec775cfae09c2709beda24d2098f71ce9745bfe51  docs/megatools-df.html
+c5c4c8d277bc2f73e2bcf4104d16bf308314c0288ee809fcb52978f95780105f  docs/megatools-dl.html
+317d80a2b64e91ef354502dd8ffd27d5ad29490ac9fee623b9e328f58b030044  docs/megatools-export.html
+8a2f04412ee47ed8ee8c4980694f181bc9c6d2506db6728238b9fe0b2369e6b7  docs/megatools-get.html
+5842c31f33971b41f75f81ccd715534960c62f6a7b8d515489209e2b860e0a0f  docs/megatools-ls.html
+b78b95cd08a0f32610cb803f4e6a5d9241b27a3c3a942fe498414c6f4c3a84f4  docs/megatools-mkdir.html
+3731a7a2871d842ae106c6e160e4ae83642cb24d36ce850531a8ad6ac41154c7  docs/megatools-put.html
+65a32b77f415e0c2743f36ff06cbb4b18f6d74414526d73f0f9885ea919212bd  docs/megatools-reg.html
+9b63acb5f2514d3510f0678c7e4c43d13aefd0e29c98a4a1b9a976f232f5f610  docs/megatools-rm.html
+10bc8a40c318156126649758ac1b6630f93b3b88fef4ee2c5507f2ef2bc3b1fd  docs/megatools-test.html
+8b793faba19c88dcf1fc94b297523f944fafc0f0bb3d6ea7b3bde9d8eb0556d9  docs/megatools.html
+f32ed5870db3bdb2e96d5edc8fe3820d0def0c8c75fc6dee49a0dc6be0765ff1  LICENSE.TXT
+c7bf9956a92137fa2f43207653ab1f134b5060aa00e657e335267f71c0ec3bad  megacmd.bat
+f6cdddf8dd25cd1076a8406b9cfc15a76ed9abebb6d09f84c1548d62e6ff9c7b  mega.ini
+c5cfe05e9bf5d5578c1823f20ea8b779b8f5573228e907f2796f6e8cede3868f  megatools.exe
+a11bf4ea90c251139ccb0fc23e95d84b691311822acf3a37fd041a0581fe82a3  NEWS.TXT
+88379e0e15e4b78ae48f6d5d24421a9c8bc55f34677a80e45f290315339f01a3  README.TXT
+a8b724e42953417931ef1f96534cc16bc3f4c31c2b36ac15c3b4b8b513bf7e8a  TODO.TXT
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYIAB0WIQTr+93hH7kY1E0fVsH58Khzvpd37QUCYoZdcwAKCRD58Khzvpd3
+7apcAQDD1DwIO1hg9U9zxgKsPhJYAEexEWQmEnTu1AU/qziPcwEAy1IiBsM2ofEd
+CAsBjVmr1uLfshtBV0luVVGIN+99aAw=
+=zXCG
+-----END PGP SIGNATURE-----
